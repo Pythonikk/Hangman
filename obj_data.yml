@@ -1,0 +1,9 @@
+--- !ruby/object:Game
+word: liquefier
+incorrect_guesses:
+- a
+correct_guesses:
+- e
+- i
+guess: !ruby/object:Guess
+  letter: i
