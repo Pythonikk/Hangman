@@ -1,9 +1,13 @@
 --- !ruby/object:Game
-word: liquefier
+word: concave
 incorrect_guesses:
-- a
-correct_guesses:
-- e
 - i
+- t
+- s
+- r
+correct_guesses:
+- a
+- e
+- c
 guess: !ruby/object:Guess
-  letter: i
+  letter: c

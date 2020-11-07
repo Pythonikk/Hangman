@@ -38,15 +38,12 @@ class Game
 
   def self.prompt_load
     puts 'Do you want to load a game y/n?'
-    input = gets.chomp
-    load_game if input == 'y'
-    input
+    gets.chomp
   end
 
   def prompt_save
-    puts 'Do you want to save your game and exit?'
-    input = gets.chomp
-    save_game and exit if input == 'y'
+    puts 'Do you want to save your game and exit? y/n'
+    save_game and exit if gets.chomp == 'y'
   end
 
   def save_game
